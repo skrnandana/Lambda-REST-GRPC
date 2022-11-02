@@ -3,6 +3,7 @@
 ## UIC  Email : ksidda2@uic.edu
 ## Github : https://github.com/skrnandana/Lambda-REST-GRPC
 ## Video Link : https://www.youtube.com/watch?v=h3swyQ8SCvc
+## Documentation Link : https://drive.google.com/file/d/189ayMfZab6jZh-8NXpP0cCj0UOjaIrxi/view?usp=share_link
 
 ## Introduction
 The goal of the project is to locate a set of messages in the Log File created by project 'LogFileGenerator'. The project LogFileGenerator is deployed on a EC2 instance and is connected to S3 to store the log files. We should create a IAM role and policy to allow communication between EC2 and S3. This project has a server Lambda Function which accepts the requests from clients. The Lambda function gets invoked by a pair of clients. One is GRPC client and other one is REST Client.  The project also has GRPC Server where the GRPC Client requests the GRPC Server, and GRPC Server which in turn requests the Lambda function. The protobuf “protobuff.proto” communicates between the  GRPC client and the GRPC server. 
