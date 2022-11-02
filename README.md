@@ -36,7 +36,7 @@ sbt clean compile test
 
 ### 2.GRPC: 
 
-GRPC Server runs on the port specified in the configuration file. GRPC Server receives request from GRPC Client. The GRPC Server will again invoke lambda server and responds back to the Client. If the process is successful  ,then a success message is shown  ,and if some failure happens, a FAILURE message is shown
+GRPC Server runs on the port specified in the configuration file. GRPC Server receives request from GRPC Client. The GRPC Server will again invoke lambda server and responds back to the Client. If the process is successful  ,then a success message is shown  ,and if some failure happens, a FAILURE message is shown. We run GRPC Server first, and then the GRPC Client.
 
 ```
 cd GRPC
