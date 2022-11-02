@@ -13,12 +13,6 @@ class gRPCTests extends AnyFunSuite {
     assert(expected == actual)
   }
 
-  test("get Class Test") {
-    val actual = gRPCServer.getClass
-    //Assert to check the class
-    assert(actual != None)
-  }
-
 
   //Test to assert the time from configuration
   test("Time Test") {
