@@ -8,7 +8,7 @@
 The goal of the project is to locate a set of messages in the Log File created by project 'LogFileGenerator'. The project LogFileGenerator is deployed on a EC2 instance and is connected to S3 to store the log files. We should create a IAM role and policy to allow communication between EC2 and S3. This project has a server Lambda Function which accepts the requests from clients. The Lambda function gets invoked by a pair of clients. One is GRPC client and other one is REST Client.  The project also has GRPC Server where the GRPC Client requests the GRPC Server, and GRPC Server which in turn requests the Lambda function. The protobuf “protobuff.proto” communicates between the  GRPC client and the GRPC server. 
 
 ## Prerequisites
-+ Services on AWS : Lambda, s3, ec2, AWS API Get Way, IAM Roles
++ Services on AWS : Lambda, s3, ec2, AWS API Getway, IAM Roles
 + Install jdk , aws , sbt , on ec2 instance.
 + Install SBT For Scala.
 + Python environment for Lambda.
