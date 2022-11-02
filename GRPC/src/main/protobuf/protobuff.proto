@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service checkLog {
+  rpc checkTime (LogRequest) returns (LogReply) {}
+}
+
+// The message which is used for request
+message LogRequest {
+  string msgstr = 1;
+}
+
+// The message which is used for response
+message LogReply {
+  string message = 1;
+}

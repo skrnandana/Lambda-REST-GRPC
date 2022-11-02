@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\ksidda2\Desktop\AWS-HW2\AkkaService\src\main\resources\application.conf,C:\Users\ksidda2\Desktop\AWS-HW2\AkkaService\target\scala-2.13\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\ksidda2\Desktop\AWS-HW2\AkkaService\src\main\resources\logback-test.xml,C:\Users\ksidda2\Desktop\AWS-HW2\AkkaService\target\scala-2.13\classes\logback-test.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\ksidda2\Desktop\AWS-HW2\AkkaService\src\main\resources\logback.xml,C:\Users\ksidda2\Desktop\AWS-HW2\AkkaService\target\scala-2.13\classes\logback.xml)[0m

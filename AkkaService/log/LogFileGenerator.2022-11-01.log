@@ -1,0 +1,8 @@
+21:41:50.946 [sbt-bg-threads-1] INFO  AkkaClient$ - Inside Akka Client
+21:41:51.621 [default-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+21:41:51.763 [sbt-bg-threads-1] INFO  AkkaClient$ - Inside Post Request
+21:41:51.763 [sbt-bg-threads-1] INFO  AkkaClient$ - Pattern :([a-c][e-g][0-3]|[A-Z][5-9][f-w]){5,15}
+21:41:51.763 [sbt-bg-threads-1] INFO  AkkaClient$ - T:00:20:39
+21:41:51.765 [sbt-bg-threads-1] INFO  AkkaClient$ - dT:00:00:20
+21:41:54.461 [scala-execution-context-global-171] INFO  AkkaClient$ - SUCCESS
+21:41:54.474 [scala-execution-context-global-170] INFO  AkkaClient$ - ["<md5 _hashlib.HASH object @ 0x7fabdfe1bf70>", "<md5 _hashlib.HASH object @ 0x7fabdfe1b950>", "<md5 _hashlib.HASH object @ 0x7fabdfe1b950>", "<md5 _hashlib.HASH object @ 0x7fabdfe1b950>", "<md5 _hashlib.HASH object @ 0x7fabdfe1b950>"]
