@@ -15,7 +15,7 @@ The goal of the project is to locate a set of messages in the Log File created b
 + IDEA IntelliJ is used to run the project.
 
 ## Project Components and Execution
-Clone the git repository using git clone 
+Clone the git repository using git clone https://github.com/skrnandana/Lambda-REST-GRPC.git. 
 The project has the following main components.
 ### 1.AkkaService
 
@@ -63,6 +63,7 @@ The Lambda code in \Lambda\Lambda.py should be deployed on AWS Lambda console.
 
 
 ### 4.LogFileGenerator:
+(https://github.com/0x1DOCD00D/CS441_Fall2022/tree/main/LogFileGenerator)
  We run the logfile generator and build a assembly file of the project using “sbt assembly.” We upload the jar into ec2. We run a cron script for generating log files periodically for every 2nd minute . This updating log file will be read by s3.
 
 
